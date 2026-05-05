@@ -42,8 +42,12 @@ public class Order {
         return this.status;
     }
 
+    public void updateStatus(OrderStatus status) {
+        this.status = status;
+    }
+
     @Override
     public String toString() {
-        return "Order #" + orderId + " | " + cusomerName + " | " + meal.name() + " | " + status;
+        return "Order #" + orderId + " | " + customerName + " | " + meal.name() + " | " + status;
     }
 }

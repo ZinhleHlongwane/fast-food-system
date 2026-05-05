@@ -1,13 +1,14 @@
 package com.fastfood;
 
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.Test;
+
 import com.fastfood.model.Ingredient;
 import com.fastfood.model.Meal;
 import com.fastfood.model.Order;
-import org.junit.jupiter.api.Test;
-
-import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class OrderTest {
 
